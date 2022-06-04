@@ -1,0 +1,8 @@
+{
+    "target_overrides": {
+        "WEACT_MINI_F411CE": {
+            "crash-capture-enabled": true,
+            "fatal-error-auto-reboot-enabled": true
+        }
+    }
+}

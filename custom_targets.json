@@ -1,0 +1,20 @@
+{
+    "WEACT_BLACKPILL_F411CE": {
+        "inherits": [
+            "MCU_STM32F411xE"
+        ],
+        "public:": false,  
+        "macros_add": [
+            "HSE_VALUE=25000000"
+        ],                      
+        "overrides": {
+            "clock_source": "USE_PLL_HSE_XTAL|USE_PLL_HSI"
+        }, 
+        "device_has_add": [
+            "USBDEVICE"
+        ],
+        "device_name": "STM32F411CEUx",
+        "url": "https://github.com/WeActTC/MiniSTM32F4x1",
+        "vendor": "WeAct Studio"
+    }
+}

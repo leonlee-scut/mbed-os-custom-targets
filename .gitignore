@@ -30,3 +30,21 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# STM_gen_PeripheralPins.py temporary files
+STM32_open_pin_data/
+targets_custom/
