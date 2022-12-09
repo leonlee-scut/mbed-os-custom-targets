@@ -1,8 +1,8 @@
 {
     "target_overrides": {
-        "WEACT_WEACT_BLACKPILL_F411CE": {
+        "WEACT_BLACKPILL_F411CE": {
             "platform.stdio-baud-rate": 115200,
-			"platform.default-serial-baud-rate": 115200,
+            "platform.default-serial-baud-rate": 115200,
             "platform.fatal-error-auto-reboot-enabled": true
         }
     }
